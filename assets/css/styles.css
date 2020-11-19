@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("/assets/fonts/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Roboto", sans-serif;
+    src: url("/assets/fonts/Roboto-Bold.ttf") format("truetype");
+    font-weight: bold;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #ffd89b;  /* fallback for old browsers */
+    background: linear-gradient(30deg, #19547b, #ffd89b) fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #2980b9;
+    color: white;
+    margin: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: #666;
+    line-height: 40px;
+    height: 40px;
+    background-color: white;
+}
+
+li:hover span {
+    width: 40px;
+    transition: 0.4s linear;
+    opacity: 1;
+}
+
+li:nth-child(2n) {
+    background-color: #f7f7f7;
+}
+
+input {
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: #2980b9;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+input:focus {
+    background-color: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+span {
+    background-color: #e74c3c;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    opacity: 0;
+}
+
+.completed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.fa-plus {
+    float: right;
+}
+
+#container {
+    width: 360px;
+    margin: 100px auto;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+
